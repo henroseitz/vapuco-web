@@ -9,90 +9,165 @@
 </head>
 <body>
 
-<header class="header" id="header">
-  <a class="logo" href="#">
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#">
     <img src="logo.png" alt="VAPUCO logo">
   </a>
 
-  <nav>
+  <nav class="main-nav">
     <a href="#">Home</a>
     <a href="#about">About us</a>
-    <a href="#products">Products</a>
+
+    <div class="nav-dropdown">
+      <a href="#products">Products ▾</a>
+      <div class="mega-menu">
+        <div class="mega-col">
+          <h4>Industrial Valves</h4>
+          <a href="#products">Gate Valves</a>
+          <a href="#products">Globe Valves</a>
+          <a href="#products">Ball Valves</a>
+          <a href="#products">Check Valves</a>
+          <a href="#products">Butterfly Valves</a>
+          <a href="#products">Strainers</a>
+        </div>
+        <div class="mega-col">
+          <h4>Pumps</h4>
+          <a href="#products">Process Pumps</a>
+          <a href="#products">Centrifugal Pumps</a>
+          <a href="#products">Industrial Pumps</a>
+        </div>
+        <div class="mega-col">
+          <h4>Compressors</h4>
+          <a href="#products">Air Compressors</a>
+          <a href="#products">Industrial Compressors</a>
+          <a href="#products">Compressor Packages</a>
+        </div>
+        <div class="mega-highlight">
+          <h4>Need a quotation?</h4>
+          <p>Send us operating conditions, medium, pressure, temperature and required standard.</p>
+          <a class="mega-btn" href="mailto:sales@vapuco.eu">Request a quote</a>
+        </div>
+      </div>
+    </div>
+
     <a href="#partners">Partners</a>
+    <a href="#industries">Industries</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <div class="header-contact">
-    <span>sales@vapuco.eu</span>
-    <span>+421 911 854 278</span>
-  </div>
+  <a class="header-btn" href="mailto:sales@vapuco.eu">Request a quote</a>
 </header>
 
 <section class="hero">
-  <div class="hero-dark"></div>
+  <div class="hero-overlay"></div>
   <div class="hero-content">
     <p class="eyebrow">Industrial solutions</p>
     <h1>Valve<br><span>Pump</span><br>Compressor</h1>
-    <div class="line"></div>
+    <div class="hero-line"></div>
     <h2>Reliable industrial solutions</h2>
-    <p>High quality industrial valves, pumps and compressors for demanding applications.</p>
-    <div class="hero-buttons">
+    <p>High quality industrial valves, pumps and compressors for demanding applications in oil & gas, chemical, power generation, water and general industry.</p>
+    <div class="hero-actions">
       <a href="mailto:sales@vapuco.eu">Request a quote</a>
-      <a class="outline" href="#products">Our products</a>
+      <a class="secondary" href="#products">Explore products</a>
     </div>
   </div>
 </section>
 
-<section id="products" class="section">
+<section id="products" class="section products">
   <p class="eyebrow blue">Product range</p>
-  <h2>Our products</h2>
-  <div class="cards">
+  <h2>Engineered for demanding applications</h2>
+  <div class="section-line"></div>
+
+  <div class="product-grid">
     <article>
+      <span>01</span>
       <h3>Industrial Valves</h3>
-      <p>Gate valves, globe valves, ball valves, check valves, butterfly valves, strainers and special industrial valves.</p>
+      <p>Gate, globe, ball, check, butterfly valves, strainers and special valve solutions for industrial service.</p>
+      <a href="mailto:sales@vapuco.eu">Send inquiry →</a>
     </article>
+
     <article>
+      <span>02</span>
       <h3>Pumps</h3>
-      <p>Reliable pumping solutions for industrial processes, water systems and demanding applications.</p>
+      <p>Reliable pumping solutions for process plants, water systems and demanding industrial applications.</p>
+      <a href="mailto:sales@vapuco.eu">Send inquiry →</a>
     </article>
+
     <article>
+      <span>03</span>
       <h3>Compressors</h3>
-      <p>Industrial compressor solutions for continuous operation and reliable performance.</p>
+      <p>Industrial compressor solutions for continuous operation, efficiency and dependable performance.</p>
+      <a href="mailto:sales@vapuco.eu">Send inquiry →</a>
     </article>
+  </div>
+</section>
+
+<section id="partners" class="section partners">
+  <p class="eyebrow blue">Trusted manufacturers</p>
+  <h2>Our partners</h2>
+  <div class="section-line"></div>
+
+  <div class="partner-grid">
+    <div class="partner-card"><img src="baltic.png" alt="Baltic Valves"></div>
+    <div class="partner-card"><img src="bonney-forge.jpg" alt="Bonney Forge"></div>
+    <div class="partner-card"><img src="valvosider.png" alt="Valvosider"></div>
   </div>
 </section>
 
 <section id="about" class="about">
-  <div>
+  <div class="about-text">
     <p class="eyebrow blue">About VAPUCO</p>
     <h2>Your partner in industrial solutions</h2>
-    <p>VAPUCO supplies industrial valves, pumps and compressors with a focus on quality, technical support and fast communication. We help customers choose suitable equipment according to medium, pressure, temperature and project requirements.</p>
+    <p>VAPUCO supplies industrial valves, pumps and compressors with a focus on quality, technical support and fast communication. We help customers select suitable equipment according to medium, pressure, temperature, material and project requirements.</p>
+    <a href="#contact">Contact our team</a>
+  </div>
+
+  <div class="about-stats">
+    <div><b>3</b><span>Main product groups</span></div>
+    <div><b>24h</b><span>Fast response</span></div>
+    <div><b>EU</b><span>Industrial market</span></div>
+    <div><b>100%</b><span>Technical focus</span></div>
   </div>
 </section>
 
-<section id="partners" class="section light">
-  <p class="eyebrow blue">Trusted manufacturers</p>
-  <h2>Partners</h2>
-  <p class="center-text">Baltic Valves · Bonney Forge · Valvosider</p>
+<section id="industries" class="section industries">
+  <p class="eyebrow blue">Industries</p>
+  <h2>Industries we serve</h2>
+  <div class="industry-list">
+    <span>Oil & Gas</span>
+    <span>Chemical</span>
+    <span>Petrochemical</span>
+    <span>Power Generation</span>
+    <span>Water & Wastewater</span>
+    <span>Steel</span>
+    <span>Marine</span>
+    <span>Mining</span>
+  </div>
 </section>
 
 <section id="contact" class="contact">
-  <h2>Contact</h2>
-  <p><b>Email:</b> <a href="mailto:sales@vapuco.eu">sales@vapuco.eu</a></p>
-  <p><b>Phone:</b> <a href="tel:+421911854278">+421 911 854 278</a></p>
-  <p><b>Address:</b> Narcisová 1945/2, 927 05 Šaľa, Slovakia</p>
+  <div>
+    <p class="eyebrow">Contact</p>
+    <h2>Send us your inquiry</h2>
+    <p>For quotations or technical questions, contact us directly.</p>
+  </div>
+
+  <div class="contact-box">
+    <p><b>Email:</b> <a href="mailto:sales@vapuco.eu">sales@vapuco.eu</a></p>
+    <p><b>Phone:</b> <a href="tel:+421911854278">+421 911 854 278</a></p>
+    <p><b>Address:</b> Narcisová 1945/2, 927 05 Šaľa, Slovakia</p>
+  </div>
 </section>
 
-<footer>© 2026 VAPUCO — Valve Pump Compressor</footer>
+<footer>
+  <img src="logo.png" alt="VAPUCO logo">
+  <p>© 2026 VAPUCO — Valve Pump Compressor</p>
+</footer>
 
 <script>
-window.addEventListener("scroll", function () {
-  const header = document.getElementById("header");
-  if (window.scrollY > 60) {
-    header.classList.add("scrolled");
-  } else {
-    header.classList.remove("scrolled");
-  }
+window.addEventListener("scroll", () => {
+  const header = document.getElementById("siteHeader");
+  header.classList.toggle("scrolled", window.scrollY > 70);
 });
 </script>
 
