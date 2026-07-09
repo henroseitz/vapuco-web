@@ -1,94 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VAPUCO | Valve Pump Compressor</title>
-<meta name="description" content="VAPUCO supplies industrial valves, pumps and compressors for demanding industrial applications.">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VAPUCO | Valve Pump Compressor</title>
+  <meta name="description" content="VAPUCO supplies industrial valves, pumps and compressors for demanding industrial applications.">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <header class="site-header" id="siteHeader">
   <a class="brand" href="#home"><img src="logo.png" alt="VAPUCO logo"></a>
-  <button class="menu-toggle" id="menuToggle">☰</button>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
   <nav class="main-nav" id="mainNav">
     <a href="#home">Home</a><a href="#about">About Us</a><a href="#products">Products</a><a href="#partners">Partners</a><a href="#industries">Industries</a><a href="#contact">Contact</a>
   </nav>
 </header>
-
 <main>
-<section class="hero" id="home">
-  <div class="hero-bg"></div>
-  <div class="hero-content">
-    <p class="eyebrow reveal">Industrial Solutions</p>
-    <h1 class="reveal d1">Valve<br><span>Pump</span><br>Compressor</h1>
-    <div class="hero-line reveal d2"></div>
-    <h2 class="reveal d3">Reliable Industrial Solutions</h2>
-    <p class="hero-text reveal d4">VAPUCO supplies industrial valves, pumps and compressors for demanding applications across key industries.</p>
-    <div class="hero-actions reveal d5">
-      <a class="btn btn-primary" href="mailto:sales@vapuco.eu">Request a Quote</a>
-      <a class="btn btn-outline" href="#products">Our Products</a>
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Industrial Solutions</p>
+      <h1>Valve<br><span>Pump</span><br>Compressor</h1>
+      <div class="hero-line"></div>
+      <h2>Reliable Industrial Solutions</h2>
+      <p>High quality industrial valves, pumps and compressors for demanding applications across key industries.</p>
+      <div class="hero-actions"><a class="btn primary" href="mailto:sales@vapuco.eu">Request a Quote</a><a class="btn secondary" href="#products">View Products</a></div>
     </div>
-  </div>
-</section>
-
-<section class="trust-strip">
-  <div><strong>Technical Support</strong><span>Selection according to operating conditions</span></div>
-  <div><strong>Trusted Manufacturers</strong><span>Baltic Valves, Bonney Forge, Valvosider</span></div>
-  <div><strong>Fast Response</strong><span>Clear communication for your inquiries</span></div>
-  <div><strong>Industrial Expertise</strong><span>Solutions for demanding applications</span></div>
-</section>
-
-<section class="section about-section" id="about">
-  <div class="container split">
-    <div><p class="section-kicker">About VAPUCO</p><h2>Your partner for industrial equipment</h2></div>
-    <div><p>VAPUCO supplies industrial valves, pumps and compressors with a focus on quality, technical support and reliable communication. We help customers choose suitable equipment according to medium, pressure, temperature and project requirements.</p><p>Our goal is to provide dependable solutions for oil & gas, chemical, petrochemical, power generation, water and general industry.</p></div>
-  </div>
-</section>
-
-<section class="section products-section" id="products">
-  <div class="container center"><p class="section-kicker">Product Range</p><h2>Our Products</h2></div>
-  <div class="container product-grid">
-    <article class="product-card"><span class="number">01</span><h3>Industrial Valves</h3><p>Gate valves, globe valves, ball valves, check valves, butterfly valves, strainers and special industrial valves.</p><a href="mailto:sales@vapuco.eu?subject=Inquiry - Industrial Valves">Send inquiry</a></article>
-    <article class="product-card"><span class="number">02</span><h3>Pumps</h3><p>Pumping solutions for industrial processes, water systems, chemical plants and demanding applications.</p><a href="mailto:sales@vapuco.eu?subject=Inquiry - Pumps">Send inquiry</a></article>
-    <article class="product-card"><span class="number">03</span><h3>Compressors</h3><p>Industrial compressor solutions for continuous operation, reliability and efficient performance.</p><a href="mailto:sales@vapuco.eu?subject=Inquiry - Compressors">Send inquiry</a></article>
-  </div>
-</section>
-
-<section class="section partners-section" id="partners">
-  <div class="container center"><p class="section-kicker">Trusted Manufacturers</p><h2>Our Partners</h2></div>
-  <div class="container partner-grid">
-    <div class="partner-logo"><img src="baltic.png" alt="Baltic Valves"></div>
-    <div class="partner-logo"><img src="bonney-forge.jpg" alt="Bonney Forge"></div>
-    <div class="partner-logo"><img src="valvosider.png" alt="Valvosider"></div>
-  </div>
-</section>
-
-<section class="section industries-section" id="industries">
-  <div class="container center"><p class="section-kicker light">Industries</p><h2>Industries We Serve</h2></div>
-  <div class="container industry-grid"><span>Oil & Gas</span><span>Chemical</span><span>Petrochemical</span><span>Power Generation</span><span>Water & Wastewater</span><span>Marine</span><span>Mining</span><span>Steel</span></div>
-</section>
-
-<section class="contact-section" id="contact">
-  <div class="container contact-grid">
-    <div><p class="section-kicker">Contact</p><h2>Send us your inquiry</h2><p>For quotation requests or technical questions, contact our sales team directly.</p>
-      <ul class="contact-list"><li><strong>Email:</strong> <a href="mailto:sales@vapuco.eu">sales@vapuco.eu</a></li><li><strong>Phone:</strong> <a href="tel:+421911854278">+421 911 854 278</a></li><li><strong>Address:</strong> Narcisová 1945/2, 927 05 Šaľa, Slovakia</li></ul>
-    </div>
-    <form class="contact-form" action="mailto:sales@vapuco.eu" method="post" enctype="text/plain">
-      <input name="name" placeholder="Your name"><input name="email" placeholder="Email address"><input name="subject" placeholder="Subject"><textarea name="message" placeholder="Your message"></textarea><button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
+  </section>
+  <section class="placeholder-section" id="about"><h2>About Us</h2><p>Next step: we will build this section after the header and hero are approved.</p></section>
+  <section class="placeholder-section" id="products"><h2>Products</h2><p>Industrial Valves · Pumps · Compressors</p></section>
+  <section class="placeholder-section" id="partners"><h2>Partners</h2><p>Baltic Valves · Bonney Forge · Valvosider</p></section>
+  <section class="placeholder-section" id="industries"><h2>Industries</h2><p>Oil & Gas · Chemical · Petrochemical · Power · Water</p></section>
+  <section class="placeholder-section dark" id="contact"><h2>Contact</h2><p>sales@vapuco.eu · +421 911 854 278 · Šaľa, Slovakia</p></section>
 </main>
-
-<footer class="footer">
-  <div class="container footer-grid">
-    <div><img src="logo.png" alt="VAPUCO logo"><p>Valve Pump Compressor</p></div>
-    <div><h4>Products</h4><a href="#products">Industrial Valves</a><a href="#products">Pumps</a><a href="#products">Compressors</a></div>
-    <div><h4>Company</h4><a href="#about">About Us</a><a href="#partners">Partners</a><a href="#industries">Industries</a></div>
-    <div><h4>Contact</h4><p>sales@vapuco.eu</p><p>+421 911 854 278</p><p>Šaľa, Slovakia</p></div>
-  </div>
-  <div class="copyright">© 2026 VAPUCO. All rights reserved.</div>
-</footer>
 <script src="script.js"></script>
 </body>
 </html>
